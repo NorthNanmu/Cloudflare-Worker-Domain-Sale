@@ -2,12 +2,16 @@
  *  自定义网站配置 
  */
 const config = {
-  title: "96596导航网 | 96596.net",                 //write your website title
+  title: "npbc | npcb.net",                 //write your website title
   subtitle: "您正在访问的域名可以转让出售 | This Domain-Name is for SALE now!", //write your website subtitle
-  logo_icon: "cart arrow down",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
-  hitokoto: false,                     //use hitokoto or not
-  search:false,                        //enable search function
+  logo_icon: "superpowers",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
+  hitokoto: true,                     //use hitokoto or not
+  search:true,                        //enable search function
   search_engine:[                     //choose search engine which you use
+    {
+      name:"Bing",
+      template:"https://www.bing.com/search?q=$s"
+    },   
     {
       name:"Baidu",
       template:"https://www.baidu.com/s?wd=$s"
@@ -16,20 +20,16 @@ const config = {
       name:"Google",
       template:"https://www.google.com/search?q=$s"
     },
-    {
-      name:"Bing",
-      template:"https://www.bing.com/search?q=$s"
-    },   
   ],
   selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   sell_info:{
-    domain:"96596.net",
-    price:9999,                        //domain price
+    domain:"npcb.net",
+    price:2999,                        //domain price
     mon_unit:"yen sign",              //monetary unit 
     contact:[                         //how to contact you
       {
         type:"envelope",               //contact type ("weixin","qq","telegram plane","envelope" or "phone")
-        content:"vinson@88.com"
+        content:"hi@cofex.net"
       }
     ]                        
   },
