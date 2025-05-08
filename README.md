@@ -2,7 +2,7 @@
 
 Cloudflare-Worker-Domain-Sale是一款基于Cloudflare-Worker平台上的云函数程序，可以使用它瞬间搭建属于自己的域名停放页面，提供丰富的自定义配置，帮助您尽快售出自己域名。
 
-🎉[演示地址](https://96596.net)
+🎉[演示地址](https://npcb.net)
 
 ## 程序安装
 ### 快速安装
